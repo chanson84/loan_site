@@ -24,15 +24,20 @@ label, p {
     color: forestgreen;
 }
 button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: forestgreen;
     color: whitesmoke;
     font-family: sans-serif;
 }
 .leftCol {float: left;
+    width: 46%;
 padding: 5px;
 margin-left: auto;
 margin-right: auto;}
-.rightCol {float: right;
+.rightCol {float: left;
+    width: 46%;
 padding: 5px;
 margin-left: auto;
 margin-right: auto;}
