@@ -6,6 +6,7 @@
 .nav {
     background-color: forestgreen;
     color: whitesmoke;
+    text-align: center;
 }
 .nav a{
     font-family: sans-serif;
@@ -16,6 +17,7 @@
 h1, h2, h3 {
     font-family: sans-serif;
     color: forestgreen;
+    text-align: center;
 }
 label, p {
     font-family: sans-serif;
@@ -26,6 +28,12 @@ button {
     color: whitesmoke;
     font-family: sans-serif;
 }
-.leftCol {float: left;}
-.rightCol {float: right;}
+.leftCol {float: left;
+padding: 5px;
+margin-left: auto;
+margin-right: auto;}
+.rightCol {float: right;
+padding: 5px;
+margin-left: auto;
+margin-right: auto;}
 .clear {clear: both;}
