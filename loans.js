@@ -44,7 +44,7 @@ $(document).ready(
         }
 
 //Math
-        if (salary > 0) {
+        if (salary > 40000) {
             true
         }
         if (creditScore < 630) {
@@ -61,7 +61,7 @@ $(document).ready(
         }
 
         //all other functions (program logic)
-        $("form").validate({
+        $(form).validate({
             rules: myRules,
             messages: myMessages,
         })
