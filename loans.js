@@ -47,6 +47,9 @@ $(document).ready(
         if (salary > 40000) {
             true
         }
+        if (salary < 40000) {
+            false
+        }
         if (creditScore < 630) {
             false
         }
@@ -60,12 +63,30 @@ $(document).ready(
             true
         }
 
+//Function for form validation
+        function validateForm() {
+            var formSalary = document.forms["loanForm"]["salary"].value;
+            if (formSalary ==""){
+                alert("Salary is required");
+                return false;
+            }
+            var formCredit = document.forms["loanForm"]["creditScore"].value;
+            if (formCredit ==""){
+                alert("Your Credit Score is required");
+                return false;
+            }
+            var formJob = document.forms["loanForm"]["jobTime"].value;
+            if (formJob ==""){
+                alert("Your time at your job is required in months")
+                return false;
+            }
+        }
+
         //all other functions (program logic)
-        $("#loanForm").validate({
+        $(validateForm()).validate({
             rules: myRules,
             messages: myMessages,
         })
-
 //put in spans
         $("#loanStatus").text();
         $(".output").show();
@@ -118,5 +139,5 @@ var intPayment1 = intRate + 1;
         var paymentFinal = intPVal / intPaymentTotal;
 
         //Put in Spans
-
+$("#loanPmt").text;
     })
