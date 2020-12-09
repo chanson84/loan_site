@@ -111,5 +111,12 @@ $(document).ready(
             }
         }
         //Math
+var intPayment1 = intRate + 1;
+        var intPaymentTotal = intPayment1 / numPayments -1;
+        var intRatePer = intRate * 0.01;
+        var intPVal = intRatePer * presValue;
+        var paymentFinal = intPVal / intPaymentTotal;
+
+        //Put in Spans
 
     })
