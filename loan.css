@@ -26,8 +26,6 @@ label, p {
     color: forestgreen;
 }
 button {
-    margin-left: 40%;
-    margin-right: 40%;
     text-align: center;
     background-color: forestgreen;
     color: whitesmoke;
@@ -36,6 +34,28 @@ button {
 button a{
     text-decoration: none;
     color: whitesmoke;
+}
+.button {
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    background-color: forestgreen;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: block;
+}
+. button a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#checkLoan {
+    text-align: center;
+    background-color: forestgreen;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 .leftCol {float: left;
     width: 46%;
@@ -48,3 +68,4 @@ padding: 5px;
 margin-left: auto;
 margin-right: auto;}
 .clear {clear: both;}
+footer {background-color: forestgreen;}

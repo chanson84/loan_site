@@ -4,6 +4,7 @@
     <list default="true" id="fbc3802e-80b9-43df-8a0b-cba4c75c5318" name="Default Changelist" comment="Updated HTML,CSS and JS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan.css" beforeDir="false" afterPath="$PROJECT_DIR$/loan.css" afterDir="false" />
     </list>
@@ -47,7 +48,7 @@
       <updated>1607386393160</updated>
       <workItem from="1607386394267" duration="5058000" />
       <workItem from="1607440594685" duration="3185000" />
-      <workItem from="1607468276122" duration="1400000" />
+      <workItem from="1607468276122" duration="2120000" />
     </task>
     <task id="LOCAL-00001" summary="Updated HTML">
       <created>1607394003509</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607442725723</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated HTML,CSS and JS">
+      <created>1607476001647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607476001647</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
