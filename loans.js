@@ -61,7 +61,7 @@ $(document).ready(
         }
 
         //all other functions (program logic)
-        $(form).validate({
+        $("#loanForm").validate({
             rules: myRules,
             messages: myMessages,
         })
@@ -69,4 +69,47 @@ $(document).ready(
 //put in spans
         $("#loanStatus").text();
         $(".output").show();
+
+//Amortization Calculator
+        var calcRules ={
+            presValue: {
+                required:true,
+            min: 100,
+            max: 100000,
+            digits: true},
+            intRate: {
+                required:true,
+                min: 0.1,
+                max: 10,
+                digits: true
+            },
+            numPmt: {
+                required: true,
+                min: 2,
+                max: 120,
+                digits:true
+            }
+        }
+        var calcMessages = {
+            presValue: {
+                required: "Your loan's present value is required.",
+                min: "Your loan's value is too low.",
+                max: "Your loan value is too high.",
+                digits:"Please use numbers for your loan value."
+            },
+            intRate: {
+                required: "Your loan's interest rate is required.",
+                min: "Your interest rate is too low.",
+                max: "Your interest rate is too high.",
+                digits: "Please use numbers to one decimal for your loan"
+            },
+            numPmt: {
+                required: "The number of payments you have are required.",
+                min: "Your number of payments is too low.",
+                max: "Your number of payments is too high.",
+                digits: "Please enter the numerical value of payments."
+            }
+        }
+        //Math
+
     })
