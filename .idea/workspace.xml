@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbc3802e-80b9-43df-8a0b-cba4c75c5318" name="Default Changelist" comment="Updated HTML,CSS and JS">
+      <change afterPath="$PROJECT_DIR$/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan.css" beforeDir="false" afterPath="$PROJECT_DIR$/loan.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +36,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\WebstormProjects\loan_site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\WebstormProjects\loan_site" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +59,8 @@
       <workItem from="1607386394267" duration="5058000" />
       <workItem from="1607440594685" duration="3185000" />
       <workItem from="1607468276122" duration="4276000" />
-      <workItem from="1607549006769" duration="1693000" />
+      <workItem from="1607549006769" duration="3079000" />
+      <workItem from="1607744691451" duration="1525000" />
     </task>
     <task id="LOCAL-00001" summary="Updated HTML">
       <created>1607394003509</created>
@@ -146,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607549963257</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated HTML,CSS and JS">
+      <created>1607553041431</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607553041431</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

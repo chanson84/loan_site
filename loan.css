@@ -2,6 +2,7 @@
     width: 95%;
     background-color: whitesmoke;
     padding: 5px;
+    margin: 0;
 }
 .nav {
     background-color: forestgreen;
@@ -16,6 +17,9 @@
     padding: 10px;
     text-decoration: none;
 }
+.banner img{width: 95%;
+    margin: 10px auto;
+    display: block;}
 h1, h2, h3 {
     font-family: sans-serif;
     color: forestgreen;
@@ -57,6 +61,7 @@ button a{
     font-family: sans-serif;
     text-decoration: none;
 }
+
 .leftCol {float: left;
     width: 46%;
 padding: 5px;
